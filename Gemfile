@@ -5,6 +5,8 @@ gem 'rails', '4.1.6'
 gem 'sqlite3', group: [:development, :test]
 gem 'pg', group: [:production]
 
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+
 gem 'rails_12factor', group: :production
 
 gem 'sass-rails', '~> 4.0.3'
